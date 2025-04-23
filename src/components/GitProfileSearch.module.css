@@ -1,0 +1,161 @@
+.container {
+    display: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 300px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 230px;
+    width: 50%;
+    height: 10vh; /* altura da viewport */
+  }
+  
+  .inputContainer {
+    position: relative;
+    width: 400px; 
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    margin-top: -100px;
+    margin-left: 40px;
+  }
+
+  /* header */
+
+  .header {
+    display: flex;
+  }
+
+  .headerLogo{
+    display: flex;
+    align-items: center;
+  }
+
+  .headerText{
+    color:white;
+    align-items: center;
+    margin-top: -300px;
+    margin-left: 50px;
+    font-weight: normal;
+    display: flex;
+  }
+
+  .headerText2{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 10px;
+  }
+ 
+.headerBox{
+    display: flex;
+}
+
+.headerImage{
+    width: 100px;
+    display: flex;
+    margin-top: -350px;
+    margin-left: -80px;
+}
+  
+
+  /* caixa de busca */
+
+  .inputName {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    color: black;
+    background-color: white;
+  }
+  
+  .inputName::placeholder {
+    font-size: 20px;
+    color: black;
+    align-items: center;
+  }
+
+  /* botão */
+  
+  .searchButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3px; /* ajustado para ficar dentro do input */
+    height: 50px; /* ajustado para ficar mais alinhado com o input */
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  
+  .searchButton:hover{
+    background: rgb(7, 52, 173);
+  }
+
+  /* informações */
+
+  .userData {
+    align-items: center;
+    color:white;
+  }
+
+  .userDataInfos{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -50px;
+    background-color: white;
+    border-radius: 8px;
+    height: 30%;
+    width: 30%;
+    align-items: center;
+    color: black;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .dataAvatar{
+    border-radius: 50%;
+    width: 40%;
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px solid blue; /* borda azul */
+  }
+
+
+.dataText{
+    position: relative;
+    display: table;
+    justify-content: flex-end;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.userDataBox{
+    display: flex;
+    position: relative;
+}
+
+.dataLogin{
+display: flex;
+color: blue;
+}
+
+.dataReturn{
+display: flex;
+text-align: justify;
+word-break: break-word;
+width: 100%;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
